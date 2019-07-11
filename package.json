@@ -1,0 +1,27 @@
+{
+  "name": "Personal",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MillieOsh/Hackathon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MillieOsh/Hackathon/issues"
+  },
+  "homepage": "https://github.com/MillieOsh/Hackathon#readme",
+  "description": ""
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="">
+    <title>Create User</title>
+</head>
+
+<body>
+    <div>
+        <!-- test form to make sure user can post information to the database -->
+        <form action="/User_Data" method="POST">
+            First Name: <input id="userFirstName" type="text" name="userFirstName">
+            <br>
+            Last Name: <input id="userSecondName" type="text" name="userSecondName">
+            <br>
+            Email: <input id="userEmail" type="text" name="userEmail">
+            <br>
+            Age: <input id="userAge" type="text" name="userAge">
+            <br>
+            Phone Number: <input id="userPhoneNumber" type="text" name="userPhoneNumber">
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <div>
+        <form action="/Event_Data" method="POST">
+            Event Name: <input id="eventName" type="text" name="eventName">
+            <br>
+            Event Date: <input id="eventDate" type="text" name="eventDate">
+            <br>
+            Event Time: <input id="eventTime" type="text" name="eventTime">
+            <br>
+            Age Limit: <input id="eventAgeLimit" type="text" name="eventAgeLimit">
+            <br>
+            Street Address: <input id="eventStreetAddress" type="text" name="eventStreetAddress">
+            <br>
+            City: <input id="eventCity" type="text" name="eventCity">
+            <br>
+            State: <input id="eventState" type="text" name="eventState">
+            <br>
+            Zip Code: <input id="eventZipCode" type="text" name="eventZipCode">
+            <br>
+            Country: <input id="eventCountry" type="text" name="eventCountry">
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+</body>
+
+<script type="text/javascript" src="app.js"></script>
+
+</html>

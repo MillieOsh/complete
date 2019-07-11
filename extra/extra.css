@@ -1,0 +1,55 @@
+body {
+    background: url(../images/neonpink.jpg);
+   background-position: 50% 50%;
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-origin: inherit;
+   background-attachment: fixed;
+}
+
+h1{
+    position: absolute;
+    width: 1068px;
+    height: 130px;
+    left: 350px;
+    top: 52px;
+    
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 130px;
+    /* identical to box height */
+    
+    
+    color: rgb(241, 53, 197);
+    
+    
+    
+}
+#rectangle{
+    position: absolute;
+width: 1190px;
+height: 697px;
+left: 360px;
+top: 200px;
+
+background: rgba(241, 53, 197, 0.397);
+}
+p{
+    position: absolute;
+width: 1065px;
+height: 138px;
+left: 450px;
+top: 380px;
+
+font-family: 'Source Code Pro';
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 70px;
+display: flex;
+align-items: center;
+
+color: white;
+}
